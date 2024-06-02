@@ -1,1 +1,1 @@
-# brain_tumour_MRI
+# Brain tumour classification using MRI
