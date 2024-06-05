@@ -26,7 +26,7 @@ Python 3.8 or higher
 GPU (recommended for training deep learning models)
 ### Dependencies
 Install the required dependencies using pip:
-pip install -r requirements.txt
+''' pip install -r requirements.txt '''
 ### Dataset
 Download the MRI brain tumor dataset.  You can find the dataset here.
 ### Running the Project
