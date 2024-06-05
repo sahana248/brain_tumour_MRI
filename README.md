@@ -20,31 +20,12 @@ This project will specifically compare pretrained models, such as VGG19 and ResN
 7. Pandas
 8. Matplotlib
 
-## Installation and Setup
-### Prerequisites
+## Prerequisites
 Python 3.8 or higher
 GPU (recommended for training deep learning models)
-### Dependencies
-Install the required dependencies using pip:
-' pip install -r requirements.txt '
-### Dataset
-Download the MRI brain tumor dataset.  You can find the dataset here.
-### Running the Project
-1. Preprocess the data:
-  python preprocess.py
-2. Train the models:
-  python train.py --model gcn
-  python train.py --model gan
-  python train.py --model vgg19
-  python train.py --model resnet50
-3. Evaluate the models:
-  python evaluate.py --model gcn
-  python evaluate.py --model gan
-  python evaluate.py --model vgg19
-  python evaluate.py --model resnet50
-### Configuration
-Adjust the configuration settings in 'config.json' to customize parameters such as learning rate, batch size, and number of epochs.
+## Dataset
+Download the MRI brain tumor dataset.  You can find the dataset [here](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset/data).
 ## Contributors
 Sahana Muralidaran (sm22adg@herts.ac.uk)
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://www.mit.edu/~amini/LICENSE.md) file for details.
