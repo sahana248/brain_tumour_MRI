@@ -28,4 +28,4 @@ Download the MRI brain tumor dataset.  You can find the dataset [here](https://w
 ## Contributors
 Sahana Muralidaran (sm22adg@herts.ac.uk)
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://www.mit.edu/~amini/LICENSE.md) file for details.
+The dataset used in this project is licensed under the MIT License - see the [LICENSE](https://www.mit.edu/~amini/LICENSE.md) file for details.
