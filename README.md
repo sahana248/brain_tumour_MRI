@@ -1,12 +1,12 @@
 # Comparative Analysis of deep learning models for MRI- Based brain tumour Classification.
 ## Research Question
-Compare the effectiveness of custom deep learning models (GCN and GAN) with pretrained models (VGG19 and ResNet50) for brain tumor classification.
+How does the performance of custom deep learning models (GCN and GAN) compare to pretrained models (VGG19 and ResNet50) for brain tumour classification?
 
 ## Project Objectives
 In this project, we aim to develop and evaluate deep learning models, including Graph Convolutional Networks (GCN) and Generative Adversarial Networks (GAN), for brain tumour classification using MRI images. Our approach involves training and fine-tuning these custom models on a labelled dataset of brain MRI scans. We will then compare their performance with pretrained models such as VGG19 and ResNet50. Evaluation metrics, including accuracy, precision, recall, F1-score, and ROC-AUC, will guide us in determining the effectiveness of each model.
 
 ## Summary and Background
-This study explores the effectiveness of deep learning techniques on MRI images for the accurate classification of brain tumors. Brain tumors present major diagnostic challenges that require fast and accurate classification methods. Traditional manual examinations conducted by radiologists are labor-intensive and error-prone, highlighting the need for automated solutions.
+This research investigates the efficacy of deep learning techniques applied to magnetic resonance imaging for accurate diagnosis of brain tumours. The detection of brain tumours is crucially important but it is generally difficult as their recognition requires trained experts. Consequently, this necessitates machine-aided approaches since manual examination is time-consuming and fraught with mistakes. 
 
 This project will specifically compare pretrained models, such as VGG19 and ResNet50, with custom models, including Graph Convolutional Networks (GCN) and Generative Adversarial Networks (GAN). Pretrained models benefit from extensive training on large datasets and sophisticated architectures, whereas custom models offer advantages like enhanced spatial relationship analysis and the generation of synthetic data to improve training outcomes. By evaluating these models using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC, the research aims to identify the most effective model for accurate and efficient brain tumor classification in medical imaging.
 
