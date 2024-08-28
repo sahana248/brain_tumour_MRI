@@ -11,12 +11,14 @@ This research investigates the efficacy of deep learning techniques applied to m
 This project will specifically compare pretrained models, such as VGG19 and ResNet50, with custom models, including Graph Convolutional Networks (GCN) and Generative Adversarial Networks (GAN). Pretrained models benefit from extensive training on large datasets and sophisticated architectures, whereas custom models offer advantages like enhanced spatial relationship analysis and the generation of synthetic data to improve training outcomes. By evaluating these models using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC, the research aims to identify the most effective model for accurate and efficient brain tumor classification in medical imaging.
 
 ## Dataset
-Download the MRI brain tumor dataset.  You can find the dataset [here](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset/data).
 The dataset used in this project is sourced from Kaggle and consists of 7022 MRI images categorized into glioma, meningioma, pituitary, and no tumor. The images are split into training and test sets.
 
-Dataset Link: Kaggle - Brain Tumour MRI Dataset
+Download the MRI brain tumor dataset.  You can find the dataset [here](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset/data).
+
 Source 1: [Figshare](https://figshare.com/articles/dataset/brain_tumour_dataset/1512427) - 3064 T1-weighted contrast-enhanced images from 233 patients.
+
 Source 2: [Kaggle](https://www.kaggle.com/sartajbhuvaji/brain-tumour-classification-mri/metadata) - Brain Tumor Classification MRI - 3264 images split into training and test data.
+
 Source 3: [Kaggle](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumour-detection/metadata) - Brain Tumor Detection - 3865 images labeled as yes or no based on the presence of a tumor.
 
 ## Technologies Used
@@ -40,10 +42,12 @@ GPU (recommended for training deep learning models)
 
 The dataset is extracted from a zip file and organized into training and testing directories.
 Image data is preprocessed using various transformations.
+
 2. Model Implementation:
 
 Custom models (GCN and GAN) are implemented alongside pre-trained models (VGG19 and ResNet50).
 Data augmentation and regularization techniques like L2 regularization, dropout, and callbacks (early stopping, learning rate reduction) are employed.
+
 3. Training and Evaluation:
 
 The models are trained on the dataset, and performance is evaluated using accuracy, precision, recall, F1-score, and ROC-AUC metrics.
